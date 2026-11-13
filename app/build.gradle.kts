@@ -5,14 +5,14 @@ plugins {
 }
 
 android {
-    namespace = "com.example.a0122_roomdatabase"
+    namespace = "com.argy.a0128_roomdatabase"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.a0122_roomdatabase"
-        minSdk = 28
+        applicationId = "com.argy.a0128_roomdatabase"
+        minSdk = 36
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
@@ -40,16 +40,15 @@ dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
-    //icons
+    //icon
     implementation(libs.compose.icons)
-    //Room
+    //Rooms
     implementation(libs.bundles.room)
     //ViewModel
-    implementation(libs.androidx.lifecycle.viewmodel.compose)
-    implementation(libs.runtime.compose)
-    //Navigation
-    implementation(libs.androidx.navigation.compose)
-    //Test
+    implementation(libs.lifecycle.viewmodel.compose)
+    implementation(libs.lifecycle.runtime.compose)
+    //Navigasi
+    implementation(libs.navigation.compose)
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
