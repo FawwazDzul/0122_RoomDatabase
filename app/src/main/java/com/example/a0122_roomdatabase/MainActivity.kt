@@ -14,7 +14,6 @@ import com.example.a0122_roomdatabase.uicontroller.SiswaApp
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContent {
             _0122_RoomDatabaseTheme {
                 Surface(

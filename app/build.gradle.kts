@@ -6,9 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.a0122_roomdatabase"
-    compileSdk {
-        version = release(37)
-    }
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.example.a0122_roomdatabase"
